@@ -1,2 +1,8 @@
-package Prendas;public class CostoProduccionException {
+package Prendas;
+
+public class CostoProduccionException extends Exception {
+    public CostoProduccionException(String mensaje) {
+        super(mensaje);
+    }
 }
+
